@@ -1,3 +1,4 @@
+---
 plugin: servicenow.itsm.now
 group_by:
   os:
