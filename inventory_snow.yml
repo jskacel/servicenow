@@ -1,7 +1,7 @@
----
 plugin: servicenow.itsm.now
-group_by:
-  manufacturer:
-  os:
-    includes:
-      - Linux Red Hat
+query:
+  - os: = Linux Red Hat
+  - os: = Windows XP
+keyed_groups:
+  - key: os
+    prefix: os
