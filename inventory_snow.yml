@@ -1,0 +1,5 @@
+plugin: servicenow.itsm.now
+group_by:
+  os:
+    includes:
+      - Linux Red Hat
