@@ -2,5 +2,6 @@
 plugin: servicenow.itsm.now
 group_by:
   os:
+    manufacturer:
     includes:
       - Linux Red Hat
