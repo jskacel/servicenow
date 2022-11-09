@@ -1,8 +1,9 @@
 plugin: servicenow.itsm.now
-group_by:
-  os:
-    includes:
-      - "7.9"
-  Environment:
-    includes:
-      - Development
+query:
+  - os: = "7.9"
+  - Environment: = Development
+keyed_groups:
+  - key: os
+    prefix: os
+  - key: Environment
+    prefix: Environment
