@@ -1,0 +1,8 @@
+plugin: servicenow.itsm.now
+group_by:
+    os:
+     includes:
+      - "7.9"
+    Environment:
+     includes:
+      - Development
