@@ -1,9 +1,6 @@
 plugin: servicenow.itsm.now
 query:
   - os_version: = "7.9"
-  - manufacturer: = Dell Inc.
 keyed_groups:
-  - key: os
-    prefix: os
-  - key: manufacturer
-    prefix: manufacturer
+  - key: os_version
+    prefix: os_version
