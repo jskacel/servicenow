@@ -5,5 +5,3 @@ query:
 keyed_groups:
   - key: os_version
     prefix: os_version
-  - key: manufacturer
-    prefix: manufacturer
